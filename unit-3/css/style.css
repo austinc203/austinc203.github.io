@@ -1,5 +1,7 @@
 body {
-  background: url("file://unit_3/images/golfimage.jpg");
+  background: url("../images/golfimage.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 p {
   text-align: center;
