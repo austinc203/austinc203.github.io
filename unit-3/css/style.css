@@ -11,6 +11,30 @@ div {
   margin: 5px;
   border: 3px solid black;
 }
+
+#navbar {
+  width: auto;
+  height: 50px;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  font-family: arial;
+  shape-margin: 10px;
+}
+
+#default {
+  float: left;
+}
+#me {
+  float: left;
+}
+li {
+  float: left;
+}
+
 #group{
   width: 1500px;
   height: 700px;
