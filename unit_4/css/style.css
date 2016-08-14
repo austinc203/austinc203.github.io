@@ -1,3 +1,11 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  width: auto;
+  height: 75px;
+  background-color: red;
+}
+
 body {
   background: url("../images/golfimage2.jpg");
   background-repeat:no-repeat;
@@ -12,24 +20,26 @@ div {
   border: 3px solid black;
 }
 
-#navbar {
-  width: auto;
-  height: 50px;
-}
+
 ul {
   position: fixed;
   top: 0;
   width: 100%;
   font-size: 30px;
   font-family: arial;
-  shape-margin: 10px;
 }
 
 #default {
   float: left;
+  padding-right: 40px;
 }
 #me {
   float: left;
+  padding-right: 40px;
+}
+#contact {
+  float:left;
+  padding-right: 20px;
 }
 li {
   float: left;
@@ -69,13 +79,16 @@ li {
   float: right;
 }
 
+
 h1{
   text-align: center;
   font-size: 70px;
+  font-family: 'Satisfy'; cursive;
 }
 p {
   text-align: center;
   font-size: 30px;
+  font-family: 'Oxygen'; sans-serif;
 }
 
 h3 {
