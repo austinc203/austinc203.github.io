@@ -1,0 +1,19 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "json_package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinc203/austinc203.github.io.git"
+  },
+  "author": "cja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinc203/austinc203.github.io/issues"
+  },
+  "homepage": "https://github.com/austinc203/austinc203.github.io#readme"
+}
