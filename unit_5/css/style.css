@@ -7,27 +7,35 @@ body {
 }
 .hero {
   width: 100%;
-  height: 1300px;
+  height: 100vh;
   background: url("../images/golfimage2.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   margin-bottom: 40px;
+  background-position: bottom;
 }
 
 .hero p {
   position: absolute;
-  margin-top: 300px;
+  top: 300px;
   font-size: 80px;
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  background: #2e74c9;
+  width: 100%;
+  padding: .25em;
 }
 
-nav {
+header {
   position: fixed;
   top: 0;
   width: 100%;
   /* height: 75px; */
   background-color: #2e74c9;
-  text-align: right;
+  padding: 1em 2em;
+  z-index: 1;
+}
+nav {
+  float:right;
 }
 nav a {
   display:inline-block;
@@ -35,8 +43,9 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
-
-
+section {
+  padding:4em 0;
+}
 
 
 
@@ -70,16 +79,11 @@ div a {
 }
 
 .about {
-  width: 300px;
-  height: 300px;
-  float: left;
   background: url("../images/profile1.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  text-align: center;
-  font-size: 40px;
 }
 
 .fav {
@@ -114,6 +118,8 @@ h1{
   text-align: center;
   font-size: 30px;
   font-family: 'Satisfy';
+  float: left;
+  color: #fff;
 }
 p {
   text-align: center;
@@ -137,4 +143,15 @@ h4 {
   text-align: center;
   font-family: 'Satisfy';
   font-size: 35px;
+}
+.group a {
+  color:#fff;
+  display:block;
+  float:left;
+  font-size:1.5em;
+  padding:4em 0;
+  text-align:center;
+  text-decoration:none;
+  width: 19%;
+  margin: .5%;
 }
