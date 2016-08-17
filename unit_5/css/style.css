@@ -5,7 +5,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   background: #3a8abd;
 }
-#hero {
+.hero {
   width: 100%;
   height: 1300px;
   background: url("../images/golfimage2.jpg");
@@ -14,7 +14,7 @@ body {
   margin-bottom: 40px;
 }
 
-#hero p {
+.hero p {
   position: absolute;
   margin-top: 300px;
   font-size: 80px;
@@ -37,11 +37,7 @@ nav a {
 }
 
 
-h2 h4 {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Satisfy', cursive;
-}
+
 
 
 ul {
@@ -49,11 +45,11 @@ ul {
   text-align: center;
 }
 
-#group div{
+.group div{
   width: 19%;
   height: 275px;
   padding: 15px;
-  border: 1px solid red;
+  border: 1px solid black;
   float: left;
   margin-left: 1%;
   border-radius: 50%;
@@ -69,11 +65,11 @@ div a {
   color: white;
 }
 
-#equip a {
+.equip a {
   color: black;
 }
 
-#about {
+.about {
   width: 300px;
   height: 300px;
   float: left;
@@ -86,31 +82,31 @@ div a {
   font-size: 40px;
 }
 
-#fav {
+.fav {
   background: url("../images/golfflag.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#gear {
+.gear {
   background: url("../images/golfclothes.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#equip {
+.equip {
   background: url("../images/golfclubs.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#players {
+.players {
   background: url("../images/golfers.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#abouth2 {
+#about {
   clear: both;
 }
 
